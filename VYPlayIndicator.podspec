@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "Classes/*.{h,m,c}"
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.8"
+  s.tvos.deployment_target = '9.0'
 end
